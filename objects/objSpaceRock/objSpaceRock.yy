@@ -1,0 +1,42 @@
+{
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "objSpaceRock",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
+  "managed": true,
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Enemys",
+    "path": "folders/Objects/Space Only/Enemys.yy",
+  },
+  "parentObjectId": {
+    "name": "parent_rock",
+    "path": "objects/parent_rock/parent_rock.yy",
+  },
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 0,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 0,
+  "physicsShapePoints": [
+    {"x":25.0,"y":25.0,},
+    {"x":25.0,"y":25.0,},
+  ],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
+  "spriteId": {
+    "name": "sprRock",
+    "path": "sprites/sprRock/sprRock.yy",
+  },
+  "spriteMaskId": null,
+  "visible": true,
+}

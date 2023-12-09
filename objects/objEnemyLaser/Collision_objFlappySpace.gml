@@ -1,0 +1,13 @@
+//Set Hit to true:
+other.Hit = true
+//Play Hit Sound:
+if global.stop_sound = false 
+{
+global.stop_sound = true
+audio_play_sound(sndHit,1,false)
+instance_create(x,y,objWhite)
+}
+instance_destroy()
+
+
+

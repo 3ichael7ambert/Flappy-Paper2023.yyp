@@ -1,0 +1,78 @@
+Converting GML script: ${project_dir}\objects\objReady\Destroy_0.gml
+Converted builtin - line 3: background_visible[2] = false -> __background_set( e__BG.Visible, 2, false )
+
+Converting GML script: ${project_dir}\objects\par_rotatingView\Step_0.gml
+Converted builtin - line 6: view_angle -= 0.35 -> __view_set( e__VW.Angle, 0, __view_get( e__VW.Angle, 0 ) - (0.35) )
+Converted builtin - line 10: view_angle += 0.35 -> __view_set( e__VW.Angle, 0, __view_get( e__VW.Angle, 0 ) + (0.35) )
+
+Converting GML script: ${project_dir}\objects\o_fb\Alarm_0.gml
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Alarm_0.gml - 4: number of arguments expected 2 got 1
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Alarm_0.gml - 5: unexpected syntax error
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Alarm_0.gml - 6: unexpected syntax error
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Alarm_0.gml - 7: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\o_fb\Alarm_0.gml
+
+Converting GML script: ${project_dir}\objects\o_fb\Step_0.gml
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Step_0.gml - 4: number of arguments expected 2 got 1
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Step_0.gml - 5: unexpected syntax error
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Step_0.gml - 6: unexpected syntax error
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Step_0.gml - 7: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\o_fb\Step_0.gml
+
+Converting GML script: ${project_dir}\objects\o_fb\Mouse_0.gml
+ERROR: C:\Users\Owner\Documents\GameMakerStudio2\Projects\Lame Minigames\Flappy Paper\objects\o_fb\Mouse_0.gml - 4: number of arguments expected 2 got 1
+Too many errors - GML not processed : ${project_dir}\objects\o_fb\Mouse_0.gml
+
+Converting GML script: ${project_dir}\objects\objFlappyBird\Step_0.gml
+Converted builtin - line 18: background_hspeed[1] = -1.5 -> __background_set( e__BG.HSpeed, 1, -1.5 )
+Converted builtin - line 19: background_hspeed[3] = -1.5 -> __background_set( e__BG.HSpeed, 3, -1.5 )
+Converted builtin - line 35: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 36: background_hspeed[3] = 0 -> __background_set( e__BG.HSpeed, 3, 0 )
+Converted builtin - line 50: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 51: background_hspeed[3] = 0 -> __background_set( e__BG.HSpeed, 3, 0 )
+
+Converting GML script: ${project_dir}\objects\objFlappyRAGE\Step_0.gml
+Converted builtin - line 18: background_hspeed[1] = 1.5 -> __background_set( e__BG.HSpeed, 1, 1.5 )
+Converted builtin - line 19: background_hspeed[3] = 1.5 -> __background_set( e__BG.HSpeed, 3, 1.5 )
+Converted builtin - line 35: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 36: background_hspeed[3] = 0 -> __background_set( e__BG.HSpeed, 3, 0 )
+Converted builtin - line 49: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 50: background_hspeed[3] = 0 -> __background_set( e__BG.HSpeed, 3, 0 )
+
+Converting GML script: ${project_dir}\objects\objFlappySpace\Step_0.gml
+Converted builtin - line 18: background_hspeed[1] = -1.5 -> __background_set( e__BG.HSpeed, 1, -1.5 )
+Converted builtin - line 19: background_hspeed[3] = -1.5 -> __background_set( e__BG.HSpeed, 3, -1.5 )
+Converted builtin - line 35: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 36: background_hspeed[3] = 0 -> __background_set( e__BG.HSpeed, 3, 0 )
+Converted builtin - line 50: background_hspeed[1] = 0 -> __background_set( e__BG.HSpeed, 1, 0 )
+Converted builtin - line 51: background_hspeed[3] = 0 -> __background_set( e__BG.HSpeed, 3, 0 )
+
+Converting GML script: ${project_dir}\objects\objWhite\Draw_0.gml
+Converted builtin - line 1: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 1: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\objGameOver\Create_0.gml
+Converted builtin - line 21: view_angle = 0 -> __view_set( e__VW.Angle, 0, 0 )
+
+Missing audiogroup for sound: 'sndFlap' - setting to default audio group
+Missing audiogroup for sound: 'sndScore' - setting to default audio group
+Missing audiogroup for sound: 'sndHit' - setting to default audio group
+Missing audiogroup for sound: 'sndCollide' - setting to default audio group
+Missing audiogroup for sound: 'msc_Sky' - setting to default audio group
+Game speed set to 40
+Added compatibility script 'action/action_inherited.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'
