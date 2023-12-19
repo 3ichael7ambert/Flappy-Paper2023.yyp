@@ -72,7 +72,9 @@
   "IncludedFiles": [],
   "isEcma": false,
   "LibraryEmitters": [],
-  "MetaData": {},
+  "MetaData": {
+    "IDEVersion": "2023.8.2.108",
+  },
   "resources": [
     {"id":{"name":"flappy_normal","path":"sprites/flappy_normal/flappy_normal.yy",},},
     {"id":{"name":"flappy_shoot","path":"sprites/flappy_shoot/flappy_shoot.yy",},},

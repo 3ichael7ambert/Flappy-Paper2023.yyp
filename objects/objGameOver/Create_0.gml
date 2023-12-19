@@ -22,9 +22,9 @@ __view_set( e__VW.Angle, 0, 0 );
 
 //Count Score:
 alarm[0] = 5;
-
+/*
 if ads_interstitial_available()
     {
     ads_interstitial_display();
     }
-
+*/
